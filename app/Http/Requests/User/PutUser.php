@@ -28,7 +28,8 @@ class PutUser extends FormRequest
         return [
             'nombre' => 'required|min:3|max:150',
             'email' => 'required|email|min:3|max:150|unique:users,email,' . $this->id,
-            'password' => 'nullable|min:3|max:150'
+            'password' => 'nullable|min:3|max:150',
+            'tipo_usuario' => 'nullable'
         ];
     }
 

@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('nombre');
             $table->string('email')->unique();
             $table->string('password');
+            $table->tinyInteger('tipo_usuario');
             $table->timestamps();
             $table->softDeletes();
         });

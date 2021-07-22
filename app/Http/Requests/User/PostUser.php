@@ -28,7 +28,8 @@ class PostUser extends FormRequest
         return [
             'nombre' => 'required|min:3|max:150',
             'email' => 'required|email|min:3|max:150|unique:users,email',
-            'password' => 'required|min:3|max:150'
+            'password' => 'required|min:3|max:150',
+            'tipo_usuario' => 'required'
         ];
     }
 
