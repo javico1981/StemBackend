@@ -80,7 +80,7 @@ class EncuestaController extends Controller
             'Artes',
             'Biología',
             'Biotecnología',
-            'Comunicación digital y Tics ',
+            'Comunicación digital y Tics',
             'Electrónica',
             'Matemáticas',
             'Desarrollo',
